@@ -29,8 +29,9 @@ nav {
 section {
     float: left;
     width: 495px;
-    margin-bottom: 20px;
     padding: 20px;
+    padding-bottom: 999999px;
+    margin-bottom: -999999px;
 }
 
 article {
@@ -52,6 +53,13 @@ aside {
     padding: 20px;
     width: 445px;
     margin-left: 20px;
+    padding-bottom: 999999px;
+    margin-bottom: -999999px;
+}
+
+.container {
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 
 footer {
