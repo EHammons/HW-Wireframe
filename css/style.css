@@ -9,4 +9,52 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    margin: 0 auto;
+}
+
+header, nav, section, aside, footer {
+    background: #ebebeb;
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+nav {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section {
+    float: left;
+    width: 495px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+article {
+    background: #777;
+    color: #ebebeb;
+    padding: 20px;
+    margin: 10px;
+}
+
+h1, p {
+    background: #ebebeb;
+    color: #777;
+    padding: 20px;
+    margin: 10px;
+}
+
+aside {
+    float: left;
+    padding: 20px;
+    width: 445px;
+    margin-left: 20px;
+}
+
+footer {
+    clear: both;
+    padding: 20px;
 }
